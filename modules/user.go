@@ -7,7 +7,7 @@ import (
 	"golang.org/x/crypto/bcrypt"
 
 	"github.com/labstack/echo"
-	"github.com/rof20004/ability-backend/model"
+	"github.com/rof20004/go-echo-rest-template/model"
 )
 
 // User model

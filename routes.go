@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/rof20004/ability-backend/modules"
+	"github.com/rof20004/go-echo-rest-template/modules"
 )
 
 // InitRoutes - start routes
 func InitRoutes() {
 	// Root path
-	main := server.Group("/ability-backend")
+	main := server.Group("/go-echo-rest-template")
 
 	// User resources
 	userResources := modules.NewUserController(DB)

@@ -54,7 +54,7 @@ func (u *UserController) Create(c echo.Context) error {
 
 // Read - search an user
 func (u *UserController) Read(c echo.Context) error {
-	return c.JSON(http.StatusOK, &model.CustomResponse{Code: http.StatusOK, Message: "User found"})
+	return c.JSON(http.StatusOK, &model.CustomResponse{Code: http.StatusOK, Message: "User found OTÁRIO"})
 }
 
 // Update - update an usuario

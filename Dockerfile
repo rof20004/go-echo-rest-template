@@ -2,10 +2,6 @@
 # and a workspace (GOPATH) configured at /go.
 FROM golang
 
-# Install Git
-RUN apt-get update
-RUN apt-get install -y git
-
 # Install Glide
 RUN curl https://glide.sh/get | sh
 

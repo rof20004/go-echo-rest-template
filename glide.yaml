@@ -1,4 +1,4 @@
-package: github.com/rof20004/ability-backend
+package: github.com/rof20004/go-echo-rest-template
 import:
 - package: github.com/labstack/echo
   version: v3.2.1
